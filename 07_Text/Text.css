@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "PlayfairDisplayRegular";
+    src: url("fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot");
+    src: url("fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.eot?#iefix")format("embedded-opentype"),
+    url("fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.woff") format("woff"),
+    url("fonts/PlayfairDisplayRegular/PlayfairDisplayRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "LatoLight";
+    src: url("fonts/LatoLight/LatoLight.eot");
+    src: url("fonts/LatoLight/LatoLight.eot?#iefix")format("embedded-opentype"),
+    url("fonts/LatoLight/LatoLight.woff") format("woff"),
+    url("fonts/LatoLight/LatoLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("fonts/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"),
+    url("fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'LatoLight',sans-serif;
+    line-height: 35px;
+    font-size: 20px;
+}
+h2 {
+    font-family: 'PlayfairDisplayRegular', serif;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+}
+p {
+    margin: 30px 0 30px 0;
+}
+.textblock {
+    width: 108%;
+    padding-left: 40px;
+    margin: 0;
+}
+p:first-of-type::first-letter {
+    float: left;
+    margin-right: 25px;
+    font-size: 110px;
+    line-height: 90px;
+    font-family: 'PlayfairDisplayRegular', serif;
+}
+p:last-of-type {
+    font-family: 'LatoLight',serif ;
+    font-size: 26px;
+    padding-left: 40px;
+}
+.button {
+    display: block;
+    width: 240px;
+    text-align: center;
+    padding: 13px;
+    border: 2px solid #eaa258;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #eaa258;
+    font-family: 'MyriadProRegular',sans-serif;
+}
