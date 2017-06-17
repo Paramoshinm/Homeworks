@@ -1,0 +1,78 @@
+body {
+    padding: 20px;
+}
+.board {
+    position: relative;
+    background: #d4d4d4;
+    border: 5px solid black;
+    border-radius: 12.5%;
+    height: 50%;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0;
+    box-shadow: 8px 8px 12px 3px;
+}
+.board:before {
+    display: block;
+    content: '';
+    padding-top: 100%;
+}
+.inboard {
+    position: absolute;
+    background: gold;
+    border: 1px solid black;
+    width: 92%;
+    height:92%;
+    bottom: 4%;
+    right: 4%;
+}
+.border {
+    position: absolute;
+    background: #d4d4d4;
+    width: 98%;
+    height: 98%;
+    bottom: 1%;
+    right: 1%;
+    border: 1px solid #333;
+    box-sizing: border-box;
+}
+.border > :nth-child(even), .border > :nth-child(odd) {
+    font-size: 0;
+    list-style-type: none;
+    width: 100%;
+    height: 12.5%;
+    padding: 0;
+}
+li {
+    display: inline-block;
+    position: relative;
+    background: black;
+    width: 12.5%;
+    height: 100%;
+}
+.border > :nth-child(even) li {
+    margin-right: 12.5%;
+}
+.border > :nth-child(odd) li {
+    margin-left: 12.5%;
+}
+ul:nth-child(-n + 3) li:after {
+     position: absolute;
+     content: '';
+     width: 80%;
+     height: 80%;
+     top: 10%;
+     right: 10%;
+     background: white;
+     border-radius: 50%;
+ }
+ul:nth-last-child(-n + 3) li:after {
+    position: absolute;
+    content: '';
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    right: 10%;
+    background: #aaaaaa;
+    border-radius: 50%;
+}
