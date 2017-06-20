@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "MuseoSansLight";
+    src: url("/fonts/MuseoSansLight/MuseoSansLight.eot");
+    src: url("fonts/MuseoSansLight/MuseoSansLight.eot?#iefix")format("embedded-opentype"),
+    url("/fonts/MuseoSansLight/MuseoSansLight.woff") format("woff"),
+    url("/fonts/MuseoSansLight/MuseoSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+html {
+    width: 800px;
+    height: 600px;
+    background: url("Images/main bg.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+body {
+    margin: 0;
+    height: 100%;
+}
+.card__main {
+    position: relative;
+    width: 798px;
+    height: 513px;
+    background: url("Images/Rounded Rectangle .png")no-repeat;
+    background-size: cover;
+    top: 47px;
+}
+.card__logo {
+    position: absolute;
+    top: 86px;
+    left: 83px;
+}
+.card__photo {
+    position: absolute;
+    top: 187px;
+    left: 98px;
+}
+.card__slider {
+    position: absolute;
+    top: 417px;
+    left: 238px;
+}
+.card__description {
+    position: relative;
+    width: 40%;
+    height: 100%;
+    float: right;
+    top: 111px;
+    left: 30px;
+}
+.card__name {
+    font-family: "MuseoSansLight", Arial, sans-serif;
+    font-size: 24px;
+    color: #adafb3;
+    margin-bottom: 0;
+}
+.card__model-name {
+    font-family: "MuseoSansLight", Arial, sans-serif;
+    font-size: 14px;
+    color: #4f5560;
+    margin-top: 6px;
+    margin-bottom: 23px;
+}
+.card__list {
+    list-style-type: none;
+    font-family: "MuseoSansLight", Arial, sans-serif;
+    color: #4f5560;
+    padding: 0;
+    font-size: 1px;
+}
+.card__item {
+    width: 15%;
+    display: inline-block;
+    border: 1px solid #4f5560;
+    font-size: 15px;
+    padding: 7px 10px;
+    margin-top: 21px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.card__item-symbol {
+    margin-left: 3px;
+}
+.card__item--buying {
+    width: 51%;
+    height: 19px;
+    margin-top: 29px;
+    display: block;
+    background: #202835;
+    text-align: center;
+    padding-top: 11px;
+}
