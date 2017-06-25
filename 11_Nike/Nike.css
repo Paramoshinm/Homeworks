@@ -1,19 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500,700');
-html {
+body {
     width: 876px;
     height: 627px;
-    margin: 0 auto;
-}
-body {
-    height: 100%;
     background: url("Images/bg.jpg") no-repeat;
     background-size: cover;
     position: relative;
+    top:0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
 }
 .menu__logo {
     display: block;
     position: absolute;
-    left: 57px;
+    left: 67px;
     top: 20px;
 }
 .menu__menu {
