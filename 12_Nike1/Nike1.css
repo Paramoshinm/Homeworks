@@ -1,22 +1,18 @@
 @font-face {
     font-family: "MuseoSansLight";
     src: url("/fonts/MuseoSansLight/MuseoSansLight.eot");
-    src: url("fonts/MuseoSansLight/MuseoSansLight.eot?#iefix")format("embedded-opentype"),
+    src: url("fonts/MuseoSansLight/MuseoSansLight.eot?#iefix") format("embedded-opentype"),
     url("/fonts/MuseoSansLight/MuseoSansLight.woff") format("woff"),
     url("/fonts/MuseoSansLight/MuseoSansLight.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
-html {
+body {
     width: 800px;
     height: 600px;
     background: url("Images/main bg.png") no-repeat;
     background-size: cover;
     margin: 0 auto;
-}
-body {
-    margin: 0;
-    height: 100%;
 }
 .card__main {
     position: relative;
