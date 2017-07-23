@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'HansKendrick-Regular';
+    src: url('Fonts/HansKendrick-Regular.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+    background: #e5e5e5;
+    font-family: 'HansKendrick-Regular', Arial, sans-serif;
+}
+.blog {
+    margin: 3% auto;
+    width: 1120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blog > .card {
+    width: 360px;
+    height: 540px;
+    margin-bottom: 2%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+div.car {
+    width:740px;
+    height: 540px;
+    box-sizing: border-box;
+    padding: 30px;
+    background: url("Images/photo1.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+span {
+    color: #9b988f;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.card span {
+    padding-left: 30px;
+}
+img {
+    margin-bottom: 10%;
+    align-self: flex-start;
+}
+.photo {
+    padding-left: 30px;
+    padding-top: 20px;
+}
+h3 {
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+}
+h4 {
+    font-size: 22px;
+    color: #1d1d1d;
+    text-transform: uppercase;
+    padding-left: 30px;
+}
+footer {
+    text-align: center;
+}

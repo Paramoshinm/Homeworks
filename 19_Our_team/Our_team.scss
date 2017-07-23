@@ -1,0 +1,174 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto:400,900');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700');
+$color1: #ffcc00;
+$color2: #b8bcbc;
+$color3: #666666;
+@mixin center {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+.header {
+  text-align: center;
+}
+
+h1,h2,h3 {
+  margin: 0;
+}
+h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  color: $color1;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+h2 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  color: $color3;
+  font-size: 36px;
+}
+h3 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  color: $color2;
+  font-size: 18px;
+}
+
+.line {
+  width: 450px;
+  height: 1px;
+  background: $color1;
+  margin: 0 auto;
+  i {
+    display: inline-block;
+    vertical-align: top;
+    color: $color1;
+    font-size: 20px;
+    background: #fff;
+    margin-top: -10px;
+    padding: 0 10px;
+  }
+}
+.content {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+
+  .photo {
+    padding-top: 85px;
+    width: 49.5%;
+    position: relative;
+    &:before {
+      content: '';
+      width: 13px;
+      height: 23px;
+      top: 50%;
+      margin-top: -11px;
+      position: absolute;
+      background: url("Images/left.png");
+    }
+    .horizontal_block {
+      width: 430px;
+      height: 215px;
+      background: white;
+      @include center;
+    }
+    .vertical_block {
+      width: 215px;
+      height: 430px;
+      background: white;
+      @include center;
+    }
+    .pattern {
+      width: 420px;
+      height: 420px;
+      border: 1px solid $color1;
+      @include center;
+      z-index: -1;
+    }
+    img {
+      border: 1px solid $color1;
+      @include center;
+    }
+  }
+  .vertical-line {
+    padding-top: 120px;
+    width: 1px;
+    height: 560px;
+    background: $color1;
+  }
+  .info {
+    padding-top: 120px;
+    width: 49.5%;
+    text-align: center;
+    position: relative;
+    &:after {
+      content: '';
+      width: 13px;
+      height: 23px;
+      top: 50%;
+      right: 0;
+      margin-top: -11px;
+      position: absolute;
+      background: url("Images/right.png");
+    }
+    .horizontal-line {
+      width: 100px;
+      height: 1px;
+      background: $color1;
+      margin: 32px auto;
+    }
+    h3 {
+      color: $color3;
+    }
+    a {
+      display: inline-block;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    p {
+      width: 500px;
+      color: $color3;
+      font-family: 'Raleway', Arial, sans-serif;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+      margin: 0 auto;
+    }
+    .dashed-block {
+      width: 50px;
+      display: flex;
+      justify-content: space-between;
+      margin: 24px auto;
+    }
+    .block {
+      width: 10px;
+      height: 4px;
+      background: $color1;
+    }
+    .block_middle {
+      width: 20px;
+    }
+    button {
+      width: 120px;
+      height: 24px;
+      border: 1px solid $color1;
+      background: white;
+      color: $color3;
+      font-family: 'OpenSans', Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+}
+a {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}

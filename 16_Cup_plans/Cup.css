@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'misobold';
+    src: url('fonts/miso-bold-webfont.woff2') format('woff2'),
+    url('fonts/miso-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'misobold', Arial, sans-serif;
+    height: 100%;
+}
+.container {
+    margin: 2% auto;
+    padding: 1.5%;
+    background: #fdde7e;
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card {
+    width: 360px;
+    height: 440px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 1px 10px 0;
+}
+.middle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+span {
+    text-align: center;
+    font-size: 20px;
+    color: #4e4e4e;
+}
+h2 {
+    font-size: 70px;
+    color: #02995b;
+    margin: 0;
+}
+p {
+    font-size: 56px;
+    margin: 0;
+}

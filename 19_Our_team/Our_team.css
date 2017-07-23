@@ -1,0 +1,163 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,500|Roboto:400,900");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:700");
+.header {
+  text-align: center; }
+
+h1, h2, h3 {
+  margin: 0; }
+
+h1 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  color: #ffcc00;
+  font-size: 60px;
+  margin-bottom: 20px; }
+
+h2 {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-weight: 900;
+  color: #666666;
+  font-size: 36px; }
+
+h3 {
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 500;
+  color: #b8bcbc;
+  font-size: 18px; }
+
+.line {
+  width: 450px;
+  height: 1px;
+  background: #ffcc00;
+  margin: 0 auto; }
+  .line i {
+    display: inline-block;
+    vertical-align: top;
+    color: #ffcc00;
+    font-size: 20px;
+    background: #fff;
+    margin-top: -10px;
+    padding: 0 10px; }
+
+.content {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between; }
+  .content .photo {
+    padding-top: 85px;
+    width: 49.5%;
+    position: relative; }
+    .content .photo:before {
+      content: '';
+      width: 13px;
+      height: 23px;
+      top: 50%;
+      margin-top: -11px;
+      position: absolute;
+      background: url("Images/left.png"); }
+    .content .photo .horizontal_block {
+      width: 430px;
+      height: 215px;
+      background: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto; }
+    .content .photo .vertical_block {
+      width: 215px;
+      height: 430px;
+      background: white;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto; }
+    .content .photo .pattern {
+      width: 420px;
+      height: 420px;
+      border: 1px solid #ffcc00;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto;
+      z-index: -1; }
+    .content .photo img {
+      border: 1px solid #ffcc00;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      margin: auto; }
+  .content .vertical-line {
+    padding-top: 120px;
+    width: 1px;
+    height: 560px;
+    background: #ffcc00; }
+  .content .info {
+    padding-top: 120px;
+    width: 49.5%;
+    text-align: center;
+    position: relative; }
+    .content .info:after {
+      content: '';
+      width: 13px;
+      height: 23px;
+      top: 50%;
+      right: 0;
+      margin-top: -11px;
+      position: absolute;
+      background: url("Images/right.png"); }
+    .content .info .horizontal-line {
+      width: 100px;
+      height: 1px;
+      background: #ffcc00;
+      margin: 32px auto; }
+    .content .info h3 {
+      color: #666666; }
+    .content .info a {
+      display: inline-block;
+      margin-top: 30px;
+      margin-bottom: 30px; }
+    .content .info p {
+      width: 500px;
+      color: #666666;
+      font-family: 'Raleway', Arial, sans-serif;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+      margin: 0 auto; }
+    .content .info .dashed-block {
+      width: 50px;
+      display: flex;
+      justify-content: space-between;
+      margin: 24px auto; }
+    .content .info .block {
+      width: 10px;
+      height: 4px;
+      background: #ffcc00; }
+    .content .info .block_middle {
+      width: 20px; }
+    .content .info button {
+      width: 120px;
+      height: 24px;
+      border: 1px solid #ffcc00;
+      background: white;
+      color: #666666;
+      font-family: 'OpenSans', Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer; }
+
+a {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px; }
+
+/*# sourceMappingURL=Our_team.css.map */

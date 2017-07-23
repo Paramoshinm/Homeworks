@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,700,900');
+
+body {
+    font-family: 'Raleway', Arial, sans-serif;
+    margin: 0;
+}
+.ba-header {
+    background: white url("Images/img1.jpg") center;
+    background-size: cover;
+    min-height: 100vh;
+    padding: 60px 165px 290px;
+    box-sizing: border-box;
+    position: relative;
+}
+.ba-menu {
+    display: inline-block;
+    float: right;
+}
+.ba-menu a{
+    text-decoration: none;
+    margin-left: 36px;
+    line-height: 52px;
+    padding-top: 4px;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 700;
+    color: #262626;
+}
+.ba-menu a:hover {
+    border-top: 3px solid #ff6033;
+}
+.ba-content_home {
+    width: 380px;
+    height: 290px;
+    margin-top: 240px;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin: 0;
+}
+p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.59em;
+}
+.ba-content_home button {
+    width: 200px;
+    height: 55px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    color: white;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    background: #ff6033;
+    cursor: pointer;
+}
+.ba-scroll {
+    display: block;
+    width: 24px;
+    height: 40px;
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    margin-left: -12px;
+    background: url("Images/scroll.png");
+    background-size: cover;
+}
+.ba-scroll:hover {
+    opacity: 0.6;
+}
+.ba-about {
+    background: #00b6b6;
+    padding: 60px;
+    box-sizing: border-box;
+    position: relative;
+}
+.ba-content_about {
+    width: 510px;
+    height: 310px;
+    top: 50%;
+    margin-top: -155px;
+    margin-left: 60px;
+    color: white;
+    display: inline-block;
+    position: absolute;
+}
+.ba-content_about h2 {
+    font-size: 90px;
+    margin: 0;
+}
+.ba-services {
+    background: #70bfff url("Images/tomatos1.jpg") center;
+    min-height: 100vh;
+    padding: 50px 100px 70px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ba-shopping_menu {
+    width: 450px;
+    height: 500px;
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.ba-shopping {
+    width: 400px;
+    height: 100px;
+    background: white;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 1px 3px black;
+}
+.ba-item {
+    width: 70%;
+    text-align: center;
+}
+.ba-icon {
+    margin: 0 auto;
+}
+.ba-line {
+    border-right: 2px solid #9d9d9d;
+    align-self: stretch;
+}
+.ba-services_title h2{
+    font-size: 90px;
+    color: white;
+}
+.ba-gallery {
+    background: #ffe92f;
+    padding: 100px 60px;
+    min-height: 100vh;
+    text-align: center;
+ }
+.ba-gallery h2 {
+    font-size: 90px;
+    margin: 0;
+}
+.ba-gallery p {
+    width: 590px;
+    margin: 30px auto;
+}
+.ba-gallery_photo {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 40px;
+}
+.ba-photo-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ba-gallery_photo img {
+    margin-top: 30px;
+    box-shadow: 0 1px 5px black;
+}
+.ba-gallery button {
+    width: 200px;
+    height: 55px;
+    border: none;
+    box-shadow: 0 1px 3px black;
+    color: white;
+    font-family: 'Raleway', Arial, sans-serif;
+    font-weight: 300;
+    background: #5585a2;
+    cursor: pointer;
+}
